@@ -16,5 +16,20 @@ namespace BasicControlsWinForms_Exercise3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double op1 = double.Parse(textBox1.Text);
+            double op2 = double.Parse(textBox2.Text);
+            textBox3.Text = (op1 + op2).ToString();
+        }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = " ";
+            textBox2.Text = " ";
+            textBox3.Text = " ";
+        }
     }
 }

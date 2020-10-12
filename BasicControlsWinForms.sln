@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicControlsWinForms_Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicControlsWinForms_Exercise2", "BasicControlsWinForms_Exercise2\BasicControlsWinForms_Exercise2.csproj", "{1C9B57F7-A481-4E53-ACC9-370E874DA8FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicControlsWinForms_Exercise3", "BasicControlsWinForms_Exercise3\BasicControlsWinForms_Exercise3.csproj", "{755D9BC6-644A-442C-B2EB-338995681D55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1C9B57F7-A481-4E53-ACC9-370E874DA8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C9B57F7-A481-4E53-ACC9-370E874DA8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C9B57F7-A481-4E53-ACC9-370E874DA8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755D9BC6-644A-442C-B2EB-338995681D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755D9BC6-644A-442C-B2EB-338995681D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755D9BC6-644A-442C-B2EB-338995681D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755D9BC6-644A-442C-B2EB-338995681D55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
