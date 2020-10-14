@@ -58,6 +58,7 @@
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(313, 71);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(120, 31);
             this.textBox3.TabIndex = 2;
             // 
@@ -110,6 +111,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(240, 80);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(20, 20);
             this.textBox4.TabIndex = 7;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
@@ -118,7 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(495, 225);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
