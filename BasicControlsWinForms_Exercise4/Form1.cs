@@ -27,11 +27,6 @@ namespace BasicControlsWinForms_Exercise4
             textBox4.Text = "+";
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             try
@@ -50,7 +45,6 @@ namespace BasicControlsWinForms_Exercise4
             }
             catch (Exception)
             {
-
                 button3.Text = "Fill all the fields!";
             }
             
@@ -63,6 +57,31 @@ namespace BasicControlsWinForms_Exercise4
             textBox2.Text = "";
             textBox3.Text = "0";
             textBox4.Text = "";
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
