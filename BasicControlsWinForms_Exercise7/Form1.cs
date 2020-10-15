@@ -16,5 +16,11 @@ namespace BasicControlsWinForms_Exercise7
         {
             InitializeComponent();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selected = this.comboBox1.GetItemText(this.comboBox1.SelectedItem);
+            textBox1.Text = selected;
+        }
     }
 }
