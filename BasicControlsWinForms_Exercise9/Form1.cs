@@ -16,5 +16,28 @@ namespace BasicControlsWinForms_Exercise9
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            comboBox1.Items.Clear();
+            for (int i = 0; i <= 10; i+=2)
+            {
+                comboBox1.Items.Add(i);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            comboBox1.Items.Clear();
+            for (int i = 1; i <= 10; i += 2)
+            {
+                comboBox1.Items.Add(i);
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = comboBox1.GetItemText(comboBox1.SelectedItem); ;
+        }
     }
 }
