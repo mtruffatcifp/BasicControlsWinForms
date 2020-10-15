@@ -16,5 +16,11 @@ namespace BasicControlsWinForms_Exercise6
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var checkedButton = panel1.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked);
+            textBox1.Text = checkedButton.Text;
+        }
     }
 }
